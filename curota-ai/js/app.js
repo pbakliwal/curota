@@ -19,7 +19,7 @@ document.getElementById('emailForm').addEventListener('submit', function (event)
         message:description
       };
       
-      emailjs.send('service_l1qwkam', 'template_lh71rdw', templateParams).then(
+      emailjs.send('service_8h52r8h', 'template_zpclgwf', templateParams).then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
           alert("Message sent");
